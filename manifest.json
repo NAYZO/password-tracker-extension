@@ -1,0 +1,14 @@
+{
+  "name": "Password Tracker Plugin",
+  "version": "1.0",
+  "description": "This extension will help you save and manage your logins and passwords safely and securely.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+  "manifest_version": 2
+}
